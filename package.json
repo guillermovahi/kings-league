@@ -6,12 +6,18 @@
   "type": "module",
   "scripts": {
 	"dev:api": "wrangler dev api/index.js",
+	"dev": "astro dev",
 	"publish:api": "wrangler publish api/index.js", 
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "astro": "astro",
+    "build": "astro build",
+    "preview": "astro preview",
+    "start": "astro dev",
+    "test": "vitest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+	"astro": "1.9.0",
     "cheerio": "1.0.0-rc.12",
     "hono": "2.7.3"
   },
