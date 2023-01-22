@@ -1,56 +1,27 @@
 ---
 import Layout from "../layouts/Layout.astro";
+
+const response = await fetch(
+  "https://kings-league-api.guillermovahi.workers.dev/teams"
+);
+const teams = await response.json();
 ---
 
-<Layout title="Welcome to Astro.">
-  <main>
-    <img
-      src="https://kingsleague.pro/wp-content/uploads/2022/12/KL_landscape.svg"
-    />
-  </main>
+<Layout title="Kings League Infojobs">
+  <div class="container m-auto">
+    <header class="flex">
+      {
+        teams.map(({ id, image, name }) => (
+          <a href={`/teams/${id}`}>
+            <img
+              class="aspect-square w-16"
+              src={image}
+              alt={`Escudo del equipo ${name}`}
+            />
+          </a>
+        ))
+      }
+    </header>
+    <main></main>
+  </div>
 </Layout>
-
-<style>
-  main {
-    margin: auto;
-    padding: 1.5rem;
-    max-width: 60ch;
-  }
-  h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    margin: 0;
-  }
-  .text-gradient {
-    background-image: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 400%;
-    background-position: 0%;
-  }
-  .instructions {
-    line-height: 1.6;
-    margin: 1rem 0;
-    border: 1px solid rgba(var(--accent), 25%);
-    background-color: white;
-    padding: 1rem;
-    border-radius: 0.4rem;
-  }
-  .instructions code {
-    font-size: 0.875em;
-    font-weight: bold;
-    background: rgba(var(--accent), 12%);
-    color: rgb(var(--accent));
-    border-radius: 4px;
-    padding: 0.3em 0.45em;
-  }
-  .instructions strong {
-    color: rgb(var(--accent));
-  }
-  .link-card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-    gap: 1rem;
-    padding: 0;
-  }
-</style>

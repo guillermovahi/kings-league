@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-	"dev:api": "wrangler dev api/index.js",
-	"dev": "astro dev",
-	"publish:api": "wrangler publish api/index.js", 
+    "dev:api": "wrangler dev api/index.js",
+    "dev": "astro dev",
+    "publish:api": "wrangler publish api/index.js",
     "astro": "astro",
     "build": "astro build",
     "preview": "astro preview",
@@ -17,9 +17,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-	"astro": "1.9.0",
+    "@astrojs/tailwind": "^2.1.3",
+    "astro": "1.9.0",
     "cheerio": "1.0.0-rc.12",
-    "hono": "2.7.3"
+    "hono": "2.7.3",
+    "tailwindcss": "^3.0.24"
   },
   "devDependencies": {
     "standard": "^17.0.0",
