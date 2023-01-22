@@ -21,11 +21,11 @@ app.get('/', (context) => context.json([
 	},
 ]))
 
-app.get('/leaderboard', (context) => {
+app.get('/leaderboard\\/?', (context) => {
 	return context.json(leaderboard)
 })
 
-app.get('/presidents', (context) => {
+app.get('/presidents\\/?', (context) => {
 	return context.json(presidents)
 })
 
@@ -38,8 +38,17 @@ app.get('/presidents/:id', (context) => {
 		: context.json({ message: 'President not found' }, 404)
 })
 
-app.get('/teams', (context) => {
+app.get('/teams\\/?', (context) => {
 	return context.json(teams)
+})
+
+app.get('/teams/:id', (context) => {
+	const id = context.req.params('id')
+	const foundTeams = teams.find(team => team.id === id)
+
+	return foundTeams
+		? context.json(foundTeams)
+		: context.json({ message: 'Team not found' }, 404)
 })
 
 
