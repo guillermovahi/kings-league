@@ -1,7 +1,7 @@
 {
   "name": "kings-league",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Kings League Infojobs API deployed in Cloudflare Workers",
   "main": "index.js",
   "type": "module",
   "scripts": {
