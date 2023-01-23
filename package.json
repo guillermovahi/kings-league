@@ -5,14 +5,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+	"astro": "astro",
+	"build": "astro build",
     "dev:api": "wrangler dev api/index.js",
     "dev": "astro dev",
+	"preview": "astro preview",
     "publish:api": "wrangler publish api/index.js",
-    "astro": "astro",
-    "build": "astro build",
-    "preview": "astro preview",
-    "start": "astro dev",
-    "test": "vitest"
+	"scrape": "node --no-warnings scraping/index.js",
+    "test": "vitest",
+	"test:cov": "vitest run --coverage",
+    "start": "astro dev"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +23,7 @@
     "astro": "1.9.0",
     "cheerio": "1.0.0-rc.12",
     "hono": "2.7.3",
+	"picocolors": "1.0.0",
     "tailwindcss": "^3.0.24"
   },
   "devDependencies": {
