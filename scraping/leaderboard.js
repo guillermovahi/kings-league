@@ -13,15 +13,15 @@ const LEADERBOARD_SELECTORS = {
 
 export async function getLeaderBoard ($) {
 	const $rows = $('table tbody tr')
-	
+
 	const getTeamFrom = ({ name }) => {
 		const { presidentId, ...restOfTeam } = TEAMS.find(team => team.name === name)
 		const president = PRESIDENTS.find(president => president.id === presidentId)
 		return { ...restOfTeam, president }
 	}
-		
+
 	const leaderBoardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS)
-	
+
 	const leaderBoard = []
 	$rows.each((index, el) => {
 		const leaderBoardEntries = leaderBoardSelectorEntries.map(([key, { selector, typeOf }]) => {
@@ -40,7 +40,7 @@ export async function getLeaderBoard ($) {
 		leaderBoard.push({
 			...leaderboardForTeam,
 			team
-		})		
+		})
 	})
 
 	return leaderBoard
