@@ -2,7 +2,8 @@ import * as cheerio from 'cheerio'
 
 import { writeDBFile } from '../db/index.js'
 import { getLeaderBoard } from './leaderboard.js'
-import { getTopScoresList } from './top_scorer.js'
+import { getTopScoresList } from './top_scorers.js'
+import { getAssists } from './top_assists.js'
 import { logSuccess, logError, logInfo } from './log.js'
 import { getMvpList } from './mvp.js'
 
@@ -19,6 +20,10 @@ export const SCRAPINGS = {
 		url: 'https://kingsleague.pro/estadisticas/goles/',
 		scraper: getTopScoresList
 	},
+	top_assists: {
+		url: 'https://kingsleague.pro/estadisticas/asistencias/',
+		scraper: getAssists
+	}
 }
 
 export const cleanText = (text) =>
