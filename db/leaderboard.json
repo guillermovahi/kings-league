@@ -1,10 +1,36 @@
 [
     {
         "wins": 7,
+        "losses": 4,
+        "scoredGoals": 21,
+        "concededGoals": 18,
+        "yellowCards": 3,
+        "redCards": 0,
+        "team": {
+            "id": "saiyans-fc",
+            "name": "Saiyans FC",
+            "image": "https://kings-league-api.guillermovahi.workers.dev/static/logos/saiyans-fc.svg",
+            "url": "",
+            "channel": "https://twitch.tv/thegrefg",
+            "coach": "???",
+            "socialNetworks": [
+                "https://www.twitch.tv/thegrefg"
+            ],
+            "players": [],
+            "president": {
+                "id": "thegrefg",
+                "name": "TheGrefg",
+                "image": "https://kings-league-api.guillermovahi.workers.dev/static/presidents/thegrefg.png",
+                "teamId": 0
+            }
+        }
+    },
+    {
+        "wins": 8,
         "losses": 3,
-        "scoredGoals": 31,
-        "concededGoals": 25,
-        "yellowCards": 6,
+        "scoredGoals": 34,
+        "concededGoals": 27,
+        "yellowCards": 7,
         "redCards": 0,
         "team": {
             "id": "ultimate-mostoles",
@@ -27,36 +53,10 @@
     },
     {
         "wins": 7,
-        "losses": 3,
-        "scoredGoals": 20,
-        "concededGoals": 16,
-        "yellowCards": 4,
-        "redCards": 0,
-        "team": {
-            "id": "saiyans-fc",
-            "name": "Saiyans FC",
-            "image": "https://kings-league-api.guillermovahi.workers.dev/static/logos/saiyans-fc.svg",
-            "url": "",
-            "channel": "https://twitch.tv/thegrefg",
-            "coach": "???",
-            "socialNetworks": [
-                "https://www.twitch.tv/thegrefg"
-            ],
-            "players": [],
-            "president": {
-                "id": "thegrefg",
-                "name": "TheGrefg",
-                "image": "https://kings-league-api.guillermovahi.workers.dev/static/presidents/thegrefg.png",
-                "teamId": 0
-            }
-        }
-    },
-    {
-        "wins": 6,
         "losses": 4,
-        "scoredGoals": 32,
-        "concededGoals": 23,
-        "yellowCards": 9,
+        "scoredGoals": 37,
+        "concededGoals": 26,
+        "yellowCards": 11,
         "redCards": 0,
         "team": {
             "id": "porcinos-fc",
@@ -79,11 +79,66 @@
         }
     },
     {
-        "wins": 6,
+        "wins": 7,
         "losses": 4,
-        "scoredGoals": 35,
-        "concededGoals": 33,
-        "yellowCards": 2,
+        "scoredGoals": 23,
+        "concededGoals": 22,
+        "yellowCards": 1,
+        "redCards": 0,
+        "team": {
+            "id": "kunisports",
+            "name": "Kunisports",
+            "image": "https://kings-league-api.guillermovahi.workers.dev/static/logos/kunisports.svg",
+            "url": "",
+            "channel": "https://twitch.tv/slakun10",
+            "coach": "???",
+            "socialNetworks": [
+                "https://www.twitch.tv/slakun10"
+            ],
+            "players": [],
+            "president": {
+                "id": "kun-aguero",
+                "name": "Kun Agüero",
+                "image": "https://kings-league-api.guillermovahi.workers.dev/static/presidents/kun-aguero.png",
+                "teamId": 0
+            }
+        }
+    },
+    {
+        "wins": 5,
+        "losses": 6,
+        "scoredGoals": 33,
+        "concededGoals": 25,
+        "yellowCards": 8,
+        "redCards": 0,
+        "team": {
+            "id": "el-barrio",
+            "name": "El Barrio",
+            "image": "https://kings-league-api.guillermovahi.workers.dev/static/logos/el-barrio.svg",
+            "url": "",
+            "channel": "https://twitch.tv/1k",
+            "coach": "???",
+            "socialNetworks": [
+                "https://www.instagram.com/elbarrioklk/?hl=es",
+                "https://www.tiktok.com/@adricontreras4",
+                "https://twitter.com/elbarrioklk_",
+                "https://www.tiktok.com/@elbarrioklk"
+            ],
+            "players": [],
+            "president": {
+                "id": "adri-contreras",
+                "name": "Adri Contreras",
+                "image": "https://kings-league-api.guillermovahi.workers.dev/static/presidents/adri-contreras.png",
+                "teamId": 0
+            }
+        }
+    },
+    {
+        "wins": 7,
+        "losses": 4,
+        "scoredGoals": 40,
+        "concededGoals": 34,
+        "yellowCards": 6,
         "redCards": 0,
         "team": {
             "id": "los-troncos-fc",
@@ -109,65 +164,10 @@
     },
     {
         "wins": 6,
-        "losses": 4,
-        "scoredGoals": 19,
-        "concededGoals": 21,
-        "yellowCards": -2,
-        "redCards": 0,
-        "team": {
-            "id": "kunisports",
-            "name": "Kunisports",
-            "image": "https://kings-league-api.guillermovahi.workers.dev/static/logos/kunisports.svg",
-            "url": "",
-            "channel": "https://twitch.tv/slakun10",
-            "coach": "???",
-            "socialNetworks": [
-                "https://www.twitch.tv/slakun10"
-            ],
-            "players": [],
-            "president": {
-                "id": "kun-aguero",
-                "name": "Kun Agüero",
-                "image": "https://kings-league-api.guillermovahi.workers.dev/static/presidents/kun-aguero.png",
-                "teamId": 0
-            }
-        }
-    },
-    {
-        "wins": 5,
         "losses": 5,
-        "scoredGoals": 30,
-        "concededGoals": 20,
-        "yellowCards": 10,
-        "redCards": 0,
-        "team": {
-            "id": "el-barrio",
-            "name": "El Barrio",
-            "image": "https://kings-league-api.guillermovahi.workers.dev/static/logos/el-barrio.svg",
-            "url": "",
-            "channel": "https://twitch.tv/1k",
-            "coach": "???",
-            "socialNetworks": [
-                "https://www.instagram.com/elbarrioklk/?hl=es",
-                "https://www.tiktok.com/@adricontreras4",
-                "https://twitter.com/elbarrioklk_",
-                "https://www.tiktok.com/@elbarrioklk"
-            ],
-            "players": [],
-            "president": {
-                "id": "adri-contreras",
-                "name": "Adri Contreras",
-                "image": "https://kings-league-api.guillermovahi.workers.dev/static/presidents/adri-contreras.png",
-                "teamId": 0
-            }
-        }
-    },
-    {
-        "wins": 5,
-        "losses": 5,
-        "scoredGoals": 23,
-        "concededGoals": 24,
-        "yellowCards": -1,
+        "scoredGoals": 25,
+        "concededGoals": 25,
+        "yellowCards": 0,
         "redCards": 0,
         "team": {
             "id": "xbuyer-team",
@@ -190,10 +190,10 @@
     },
     {
         "wins": 5,
-        "losses": 5,
-        "scoredGoals": 30,
-        "concededGoals": 31,
-        "yellowCards": -1,
+        "losses": 6,
+        "scoredGoals": 32,
+        "concededGoals": 34,
+        "yellowCards": -2,
         "redCards": 0,
         "team": {
             "id": "1k",
@@ -219,7 +219,7 @@
     },
     {
         "wins": 5,
-        "losses": 5,
+        "losses": 6,
         "scoredGoals": 24,
         "concededGoals": 28,
         "yellowCards": -4,
@@ -245,7 +245,7 @@
     },
     {
         "wins": 4,
-        "losses": 6,
+        "losses": 7,
         "scoredGoals": 25,
         "concededGoals": 24,
         "yellowCards": 1,
@@ -272,10 +272,10 @@
     },
     {
         "wins": 3,
-        "losses": 7,
-        "scoredGoals": 26,
-        "concededGoals": 36,
-        "yellowCards": -10,
+        "losses": 8,
+        "scoredGoals": 27,
+        "concededGoals": 40,
+        "yellowCards": -13,
         "redCards": 0,
         "team": {
             "id": "rayo-barcelona",
@@ -301,10 +301,10 @@
     },
     {
         "wins": 1,
-        "losses": 9,
-        "scoredGoals": 22,
-        "concededGoals": 36,
-        "yellowCards": -14,
+        "losses": 10,
+        "scoredGoals": 23,
+        "concededGoals": 41,
+        "yellowCards": -18,
         "redCards": 0,
         "team": {
             "id": "jijantes-fc",
