@@ -8,7 +8,7 @@
         "image": "https://kings-league-api.guillermovahi.workers.dev/static/logos/1k.svg"
     },
     {
-        "playerName": "Verdú, J.",
+        "playerName": "J. Verdú",
         "gamesPlayed": 10,
         "assists": 8,
         "rank": 2,
@@ -320,7 +320,7 @@
         "image": "https://kings-league-api.guillermovahi.workers.dev/static/logos/los-troncos.svg"
     },
     {
-        "playerName": "Álvaro, E.",
+        "playerName": "E. Álvaro",
         "gamesPlayed": 12,
         "assists": 2,
         "rank": 41,
@@ -328,7 +328,7 @@
         "image": "https://kings-league-api.guillermovahi.workers.dev/static/logos/los-troncos.svg"
     },
     {
-        "playerName": "Molas, X.",
+        "playerName": "X. Molas",
         "gamesPlayed": 12,
         "assists": 2,
         "rank": 42,
@@ -336,7 +336,7 @@
         "image": "https://kings-league-api.guillermovahi.workers.dev/static/logos/los-troncos.svg"
     },
     {
-        "playerName": "Dorkis P.",
+        "playerName": "Dorkis",
         "gamesPlayed": 12,
         "assists": 2,
         "rank": 43,
